@@ -1,2 +1,2 @@
 # Mirrorage
-Just another Smart Mirror
+Smart Mirror Project 
