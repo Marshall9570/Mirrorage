@@ -1,0 +1,46 @@
+.mirror {
+    margin: auto;
+    width: 1024px;
+    height: 400px;
+    text-align:center;
+	font-size:52px;
+	background-color: Black;
+}
+
+.leftside {
+	font-size:30px;
+    float: left;
+    width:512px;
+    height:400px;
+	color:white;
+}
+
+.rightside {
+    float: right;
+    width:512px;
+    height:400px;
+    color:white;
+}
+
+.temperatureminmax {
+	font-size:36px;
+}
+
+.humidity {
+	font-size:36px;
+}
+
+.body {
+	background-color: Black;
+}
+
+.timedate 
+	{
+		margin: auto;
+		text-align: center;
+		background-color: Black;
+		color: White;
+		height: 200px;
+		width: 1024px;
+		font-size:64px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mirror</title>
+	<link rel="stylesheet" type="text/css" href="Format.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="Functions.js" ></script>
+</head>
+
+<body>	
+<div class="mirror">
+	<div class="leftside">
+		<div class="location"><span id="location">Unknown</span></div>
+		<div class="top"><img id="icon" width="350px" height="350px" src="img/01d.png" /></div>
+	</div>
+
+	<div class="rightside"><br>
+		<div class="highest">
+			<div class="description"><span id="description">Unknown</span></div>
+		</div>
+		
+		<div class="high">
+			<div class="temperature"><span id="temperature">1</span>&deg;</div>
+		</div>
+		
+		<div class="middle">
+			<div class="temperatureminmax"><span id="temperaturemin">0</span>&deg; | <span id="temperaturemax">2</span>&deg;</div>
+		</div>
+		
+		<div class="low">
+			<div class="humidity"><span id="humidity">0</span> <img src="img/Humidity.png" height="20px" width="20px" /> %</div>
+		</div>
+	</div>
+</div>	  
+  
+<div class="timedate">
+	<div id="time"></div>
+	<div id="date"></div>
+</div>
+
+</body>
+</html>
